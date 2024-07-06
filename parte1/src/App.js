@@ -1,16 +1,10 @@
 
-import './App.css';
-import Mensaje from './Mensaje';
+export default function App() {
+  return(
 
-function App() {
-  
-  return (
     <div className="App">
-
-  <Mensaje color='blue' message='estamos trabajando'/>     
-      
+    <h1> HELLO MUNDO</h1>
     </div>
   );
+    
 }
-
-export default App;
